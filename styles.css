@@ -1,0 +1,100 @@
+* {
+    overflow: auto;
+}
+
+body {
+    background: #D2D2D2;
+    margin: 0;
+    height: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: blue;
+}
+
+#main {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+
+#second {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: red;
+}
+
+#third {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    background-color: gray;
+}
+
+#fourth {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+}
+
+#fifth {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+}
+
+#sixth {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    background-color: gray;
+}
+
+
+#footer {
+    width: 100%;
+    height: 25%;
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+}
+
+.vertical_center {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.my_label {
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    right: 5px;
+    background-color: white;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.my_border {
+    border: 0.15vw solid black;
+}
+
