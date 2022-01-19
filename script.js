@@ -11,12 +11,12 @@ window.onload = function () {
 
     // Завдання 2
 
-    let task1 = document.getElementById('task2')
+    let task2 = document.getElementById('task2')
     let a = 10, b = 10, h = 5
 
     function calculate_trapezium_area(a, b, h) {
         let area = 0.5 * h * (a + b)
-        task1.innerHTML = `Task 2: Trapezium with a = ${a}, b = ${b}, h = ${h} area = ${area}`
+        task2.innerHTML = `<div style="margin: 10px;">Task 2: Trapezium with a = ${a}, b = ${b}, h = ${h} area = ${area}</div>`
     }
 
     calculate_trapezium_area(a, b, h)
